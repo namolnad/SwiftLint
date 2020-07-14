@@ -390,6 +390,12 @@ class MultilineArgumentsBracketsRuleTests: XCTestCase {
     }
 }
 
+class MultilineClosureAnonymousArgsRuleTests: XCTestCase {
+    func testWithDefaultConfiguration() {
+        verifyRule(MultilineClosureAnonymousArgsRule.description)
+    }
+}
+
 class MultilineFunctionChainsRuleTests: XCTestCase {
     func testWithDefaultConfiguration() {
         verifyRule(MultilineFunctionChainsRule.description)

@@ -100,6 +100,7 @@ public let primaryRuleList = RuleList(rules: [
     ModifierOrderRule.self,
     MultilineArgumentsBracketsRule.self,
     MultilineArgumentsRule.self,
+    MultilineClosureAnonymousArgsRule.self,
     MultilineFunctionChainsRule.self,
     MultilineLiteralBracketsRule.self,
     MultilineParametersBracketsRule.self,
